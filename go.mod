@@ -6,6 +6,7 @@ toolchain go1.22.7
 
 require (
 	cogentcore.org/core v0.3.9-0.20250127075122-ddf64b82d707
+	cogentcore.org/lab v0.0.0-20250116065728-014d19175d12
 	github.com/nsf/termbox-go v1.1.1
 	github.com/stretchr/testify v1.10.0
 	golang.org/x/exp v0.0.0-20250128182459-e0ece0dbea4c
@@ -31,13 +32,11 @@ require (
 	github.com/hack-pad/hackpadfs v0.2.1 // indirect
 	github.com/hack-pad/safejs v0.1.1 // indirect
 	github.com/jinzhu/copier v0.4.0 // indirect
-	github.com/kr/text v0.2.0 // indirect
 	github.com/mattn/go-runewidth v0.0.15 // indirect
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
 	github.com/pelletier/go-toml/v2 v2.1.2-0.20240227203013-2b69615b5d55 // indirect
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	github.com/rivo/uniseg v0.2.0 // indirect
-	github.com/rogpeppe/go-internal v1.13.1 // indirect
 	golang.org/x/image v0.18.0 // indirect
 	golang.org/x/mod v0.22.0 // indirect
 	golang.org/x/net v0.34.0 // indirect
