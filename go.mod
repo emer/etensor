@@ -1,9 +1,11 @@
 module github.com/emer/etensor
 
-go 1.22
+go 1.22.0
+
+toolchain go1.22.7
 
 require (
-	cogentcore.org/core v0.3.8
+	cogentcore.org/core v0.3.9-0.20250127075122-ddf64b82d707
 	github.com/nsf/termbox-go v1.1.1
 	github.com/stretchr/testify v1.10.0
 	golang.org/x/exp v0.0.0-20250128182459-e0ece0dbea4c

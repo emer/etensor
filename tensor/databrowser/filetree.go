@@ -10,7 +10,6 @@ import (
 	"reflect"
 	"strings"
 
-	"cogentcore.org/core/base/errors"
 	"cogentcore.org/core/base/fileinfo"
 	"cogentcore.org/core/base/fsx"
 	"cogentcore.org/core/core"
@@ -54,22 +53,22 @@ func (fn *FileNode) WidgetTooltip(pos image.Point) (string, image.Point) {
 // DataFS returns the datafs representation of this item.
 // returns nil if not a dataFS item.
 func DataFS(fn *filetree.Node) *datafs.Data {
-	dfs, ok := fn.FileRoot.FS.(*datafs.Data)
-	if !ok {
-		return nil
-	}
-	dfi, err := dfs.Stat(string(fn.Filepath))
-	if errors.Log(err) != nil {
-		return nil
-	}
-	return dfi.(*datafs.Data)
+	// dfs, ok := fn.FileRoot.FS.(*datafs.Data)
+	// if !ok {
+	return nil
+	// }
+	// dfi, err := dfs.Stat(string(fn.Filepath))
+	// if errors.Log(err) != nil {
+	// 	return nil
+	// }
+	// return dfi.(*datafs.Data)
 }
 
 func (fn *FileNode) GetFileInfo() error {
 	err := fn.InitFileInfo()
-	if fn.FileRoot.FS == nil {
-		return err
-	}
+	// if fn.FileRoot.FS == nil {
+	return err
+	// }
 	d := DataFS(fn.AsNode())
 	if d != nil {
 		fn.Info.Known = d.KnownFileInfo()
