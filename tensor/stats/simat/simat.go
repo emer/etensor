@@ -7,9 +7,9 @@ package simat
 import (
 	"fmt"
 
-	"cogentcore.org/core/tensor"
-	"cogentcore.org/core/tensor/stats/metric"
-	"cogentcore.org/core/tensor/table"
+	"github.com/emer/etensor/tensor"
+	"github.com/emer/etensor/tensor/stats/metric"
+	"github.com/emer/etensor/tensor/table"
 )
 
 // SimMat is a similarity / distance matrix with additional row and column

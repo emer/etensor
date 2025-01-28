@@ -9,8 +9,8 @@ import (
 	"cogentcore.org/core/math32"
 	"cogentcore.org/core/paint"
 	"cogentcore.org/core/styles"
-	"cogentcore.org/core/tensor"
-	"cogentcore.org/core/tensor/stats/simat"
+	"github.com/emer/etensor/tensor"
+	"github.com/emer/etensor/tensor/stats/simat"
 )
 
 const LabelSpace = float32(8)

@@ -7,8 +7,8 @@ package convolve
 import (
 	"reflect"
 
-	"cogentcore.org/core/tensor"
-	"cogentcore.org/core/tensor/table"
+	"github.com/emer/etensor/tensor"
+	"github.com/emer/etensor/tensor/table"
 )
 
 // SmoothTable returns a cloned table with each of the floating-point

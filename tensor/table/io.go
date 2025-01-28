@@ -19,7 +19,7 @@ import (
 
 	"cogentcore.org/core/base/errors"
 	"cogentcore.org/core/core"
-	"cogentcore.org/core/tensor"
+	"github.com/emer/etensor/tensor"
 )
 
 // Delim are standard CSV delimiter options (Tab, Comma, Space)

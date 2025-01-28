@@ -25,9 +25,9 @@ import (
 	"cogentcore.org/core/styles"
 	"cogentcore.org/core/styles/states"
 	"cogentcore.org/core/styles/units"
-	"cogentcore.org/core/tensor"
-	"cogentcore.org/core/tensor/table"
 	"cogentcore.org/core/tree"
+	"github.com/emer/etensor/tensor"
+	"github.com/emer/etensor/tensor/table"
 )
 
 // Table provides a GUI widget for representing [table.Table] values.

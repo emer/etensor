@@ -13,9 +13,9 @@ import (
 	"strconv"
 
 	"cogentcore.org/core/core"
-	"cogentcore.org/core/tensor/stats/split"
-	"cogentcore.org/core/tensor/stats/stats"
-	"cogentcore.org/core/tensor/table"
+	"github.com/emer/etensor/tensor/stats/split"
+	"github.com/emer/etensor/tensor/stats/stats"
+	"github.com/emer/etensor/tensor/table"
 )
 
 var (

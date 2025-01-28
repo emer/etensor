@@ -9,8 +9,8 @@ import (
 	"math"
 	"testing"
 
-	"cogentcore.org/core/tensor/stats/metric"
-	"cogentcore.org/core/tensor/table"
+	"github.com/emer/etensor/tensor/stats/metric"
+	"github.com/emer/etensor/tensor/table"
 )
 
 func TestPCAIris(t *testing.T) {

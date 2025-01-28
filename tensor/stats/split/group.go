@@ -11,7 +11,7 @@ import (
 	"slices"
 
 	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/tensor/table"
+	"github.com/emer/etensor/tensor/table"
 )
 
 // All returns a single "split" with all of the rows in given view

@@ -10,8 +10,8 @@ import (
 	"math"
 
 	"cogentcore.org/core/math32"
-	"cogentcore.org/core/tensor"
-	"cogentcore.org/core/tensor/stats/stats"
+	"github.com/emer/etensor/tensor"
+	"github.com/emer/etensor/tensor/stats/stats"
 )
 
 // FloatFunc applies given functions to float tensor data, which is either Float32 or Float64

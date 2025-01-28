@@ -6,12 +6,12 @@ package databrowser
 
 import (
 	"cogentcore.org/core/core"
-	"cogentcore.org/core/plot/plotcore"
 	"cogentcore.org/core/styles"
-	"cogentcore.org/core/tensor"
-	"cogentcore.org/core/tensor/table"
-	"cogentcore.org/core/tensor/tensorcore"
 	"cogentcore.org/core/texteditor"
+	"github.com/emer/etensor/plot/plotcore"
+	"github.com/emer/etensor/tensor"
+	"github.com/emer/etensor/tensor/table"
+	"github.com/emer/etensor/tensor/tensorcore"
 )
 
 // NewTab creates a tab with given label, or returns the existing one

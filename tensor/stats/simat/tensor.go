@@ -7,8 +7,8 @@ package simat
 import (
 	"fmt"
 
-	"cogentcore.org/core/tensor"
-	"cogentcore.org/core/tensor/stats/metric"
+	"github.com/emer/etensor/tensor"
+	"github.com/emer/etensor/tensor/stats/metric"
 )
 
 // Tensor computes a similarity / distance matrix on tensor

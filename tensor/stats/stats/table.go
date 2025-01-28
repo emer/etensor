@@ -7,7 +7,7 @@ package stats
 import (
 	"reflect"
 
-	"cogentcore.org/core/tensor/table"
+	"github.com/emer/etensor/tensor/table"
 )
 
 // MeanTables returns an table.Table with the mean values across all float

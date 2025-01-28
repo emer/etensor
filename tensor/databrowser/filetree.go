@@ -19,9 +19,9 @@ import (
 	"cogentcore.org/core/icons"
 	"cogentcore.org/core/styles"
 	"cogentcore.org/core/styles/states"
-	"cogentcore.org/core/tensor/datafs"
-	"cogentcore.org/core/tensor/table"
 	"cogentcore.org/core/texteditor/diffbrowser"
+	"github.com/emer/etensor/tensor/datafs"
+	"github.com/emer/etensor/tensor/table"
 )
 
 // FileNode is databrowser version of FileNode for FileTree

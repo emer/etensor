@@ -5,8 +5,8 @@
 package clust
 
 import (
-	"cogentcore.org/core/tensor/stats/simat"
-	"cogentcore.org/core/tensor/table"
+	"github.com/emer/etensor/tensor/stats/simat"
+	"github.com/emer/etensor/tensor/table"
 )
 
 // Plot sets the rows of given data table to trace out lines with labels that

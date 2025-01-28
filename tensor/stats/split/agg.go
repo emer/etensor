@@ -7,8 +7,8 @@ package split
 import (
 	"fmt"
 
-	"cogentcore.org/core/tensor/stats/stats"
-	"cogentcore.org/core/tensor/table"
+	"github.com/emer/etensor/tensor/stats/stats"
+	"github.com/emer/etensor/tensor/table"
 )
 
 // AggIndex performs aggregation using given standard statistic (e.g., Mean) across

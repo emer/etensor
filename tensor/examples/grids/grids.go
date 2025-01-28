@@ -9,8 +9,8 @@ import (
 
 	"cogentcore.org/core/base/errors"
 	"cogentcore.org/core/core"
-	"cogentcore.org/core/tensor/table"
-	"cogentcore.org/core/tensor/tensorcore"
+	"github.com/emer/etensor/tensor/table"
+	"github.com/emer/etensor/tensor/tensorcore"
 )
 
 //go:embed *.tsv

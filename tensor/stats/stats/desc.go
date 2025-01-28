@@ -5,7 +5,7 @@
 package stats
 
 import (
-	"cogentcore.org/core/tensor/table"
+	"github.com/emer/etensor/tensor/table"
 )
 
 // DescStats are all the standard stats

@@ -11,10 +11,10 @@ import (
 
 	"cogentcore.org/core/base/errors"
 	"cogentcore.org/core/core"
-	"cogentcore.org/core/tensor"
-	"cogentcore.org/core/tensor/databrowser"
-	"cogentcore.org/core/tensor/datafs"
-	"cogentcore.org/core/tensor/stats/stats"
+	"github.com/emer/etensor/tensor"
+	"github.com/emer/etensor/tensor/databrowser"
+	"github.com/emer/etensor/tensor/datafs"
+	"github.com/emer/etensor/tensor/stats/stats"
 )
 
 type Sim struct {

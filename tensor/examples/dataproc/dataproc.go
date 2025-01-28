@@ -13,11 +13,11 @@ import (
 	"cogentcore.org/core/core"
 	"cogentcore.org/core/events"
 	"cogentcore.org/core/icons"
-	"cogentcore.org/core/tensor/stats/split"
-	"cogentcore.org/core/tensor/stats/stats"
-	"cogentcore.org/core/tensor/table"
-	"cogentcore.org/core/tensor/tensorcore"
 	"cogentcore.org/core/tree"
+	"github.com/emer/etensor/tensor/stats/split"
+	"github.com/emer/etensor/tensor/stats/stats"
+	"github.com/emer/etensor/tensor/table"
+	"github.com/emer/etensor/tensor/tensorcore"
 )
 
 // Planets is raw data

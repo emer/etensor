@@ -12,9 +12,9 @@ import (
 	"math/rand"
 
 	"cogentcore.org/core/base/indent"
-	"cogentcore.org/core/tensor"
-	"cogentcore.org/core/tensor/stats/simat"
-	"cogentcore.org/core/tensor/stats/stats"
+	"github.com/emer/etensor/tensor"
+	"github.com/emer/etensor/tensor/stats/simat"
+	"github.com/emer/etensor/tensor/stats/stats"
 )
 
 // Node is one node in the cluster

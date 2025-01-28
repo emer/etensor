@@ -10,7 +10,7 @@ import (
 	"reflect"
 	"strings"
 
-	"cogentcore.org/core/tensor"
+	"github.com/emer/etensor/tensor"
 )
 
 // InsertKeyColumns returns a copy of the given Table with new columns

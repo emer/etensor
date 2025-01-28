@@ -5,8 +5,8 @@
 package norm
 
 import (
-	"cogentcore.org/core/tensor"
-	"cogentcore.org/core/tensor/stats/stats"
+	"github.com/emer/etensor/tensor"
+	"github.com/emer/etensor/tensor/stats/stats"
 )
 
 ///////////////////////////////////////////

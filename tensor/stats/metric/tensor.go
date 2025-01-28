@@ -7,7 +7,7 @@ package metric
 import (
 	"math"
 
-	"cogentcore.org/core/tensor"
+	"github.com/emer/etensor/tensor"
 )
 
 // ClosestRow32 returns the closest fit between probe pattern and patterns in

@@ -10,7 +10,7 @@ import (
 	"math"
 
 	"cogentcore.org/core/math32"
-	"cogentcore.org/core/tensor"
+	"github.com/emer/etensor/tensor"
 )
 
 // Abs32 applies the Abs function to each element in given slice

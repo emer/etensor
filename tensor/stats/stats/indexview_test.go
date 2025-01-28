@@ -10,7 +10,7 @@ import (
 
 	"cogentcore.org/core/base/errors"
 	"cogentcore.org/core/base/tolassert"
-	"cogentcore.org/core/tensor/table"
+	"github.com/emer/etensor/tensor/table"
 
 	"github.com/stretchr/testify/assert"
 )

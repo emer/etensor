@@ -8,9 +8,9 @@ import (
 	"testing"
 
 	"cogentcore.org/core/base/tolassert"
-	"cogentcore.org/core/tensor/stats/metric"
-	"cogentcore.org/core/tensor/stats/simat"
-	"cogentcore.org/core/tensor/table"
+	"github.com/emer/etensor/tensor/stats/metric"
+	"github.com/emer/etensor/tensor/stats/simat"
+	"github.com/emer/etensor/tensor/table"
 )
 
 var clustres = `

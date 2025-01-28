@@ -12,7 +12,7 @@ import (
 
 	"cogentcore.org/core/base/reflectx"
 	"cogentcore.org/core/base/slicesx"
-	"cogentcore.org/core/tensor/bitslice"
+	"github.com/emer/etensor/tensor/bitslice"
 	"gonum.org/v1/gonum/mat"
 )
 

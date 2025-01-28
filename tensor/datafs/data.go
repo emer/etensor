@@ -13,8 +13,8 @@ import (
 	"cogentcore.org/core/base/fileinfo"
 	"cogentcore.org/core/base/metadata"
 	"cogentcore.org/core/base/reflectx"
-	"cogentcore.org/core/tensor"
-	"cogentcore.org/core/tensor/table"
+	"github.com/emer/etensor/tensor"
+	"github.com/emer/etensor/tensor/table"
 )
 
 // Data is a single item of data, the "file" or "directory" in the data filesystem.

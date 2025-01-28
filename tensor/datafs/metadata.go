@@ -8,8 +8,8 @@ import (
 	"cogentcore.org/core/base/errors"
 	"cogentcore.org/core/base/fsx"
 	"cogentcore.org/core/base/metadata"
-	"cogentcore.org/core/plot/plotcore"
-	"cogentcore.org/core/tensor/table"
+	"github.com/emer/etensor/plot/plotcore"
+	"github.com/emer/etensor/tensor/table"
 )
 
 // This file provides standardized metadata options for frequent

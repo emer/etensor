@@ -7,9 +7,9 @@ package pca
 import (
 	"fmt"
 
-	"cogentcore.org/core/tensor"
-	"cogentcore.org/core/tensor/stats/metric"
-	"cogentcore.org/core/tensor/table"
+	"github.com/emer/etensor/tensor"
+	"github.com/emer/etensor/tensor/stats/metric"
+	"github.com/emer/etensor/tensor/table"
 )
 
 // CovarTableColumn generates a covariance matrix from given column name

@@ -6,7 +6,7 @@ package stats
 
 import (
 	"cogentcore.org/core/base/errors"
-	"cogentcore.org/core/tensor/table"
+	"github.com/emer/etensor/tensor/table"
 )
 
 // IfFunc is used for the *If aggregators -- counted if it returns true

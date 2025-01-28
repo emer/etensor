@@ -7,9 +7,9 @@ package tensorcore
 import (
 	"cogentcore.org/core/core"
 	"cogentcore.org/core/icons"
-	"cogentcore.org/core/tensor"
-	"cogentcore.org/core/tensor/stats/simat"
-	"cogentcore.org/core/tensor/table"
+	"github.com/emer/etensor/tensor"
+	"github.com/emer/etensor/tensor/stats/simat"
+	"github.com/emer/etensor/tensor/table"
 )
 
 func init() {

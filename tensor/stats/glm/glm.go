@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"math"
 
-	"cogentcore.org/core/tensor"
-	"cogentcore.org/core/tensor/table"
+	"github.com/emer/etensor/tensor"
+	"github.com/emer/etensor/tensor/table"
 )
 
 // todo: add tests

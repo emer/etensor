@@ -7,7 +7,7 @@ package stats
 import (
 	"math"
 
-	"cogentcore.org/core/tensor"
+	"github.com/emer/etensor/tensor"
 )
 
 // StatTensor returns Tensor statistic according to given Stats type applied

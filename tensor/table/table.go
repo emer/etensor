@@ -15,7 +15,7 @@ import (
 	"slices"
 	"strings"
 
-	"cogentcore.org/core/tensor"
+	"github.com/emer/etensor/tensor"
 )
 
 // Table is a table of data, with columns of tensors,

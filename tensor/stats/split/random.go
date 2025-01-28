@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"math"
 
-	"cogentcore.org/core/tensor/table"
+	"github.com/emer/etensor/tensor/table"
 	"gonum.org/v1/gonum/floats"
 )
 

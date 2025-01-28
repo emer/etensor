@@ -7,8 +7,8 @@ package split
 import (
 	"testing"
 
-	"cogentcore.org/core/tensor/stats/stats"
-	"cogentcore.org/core/tensor/table"
+	"github.com/emer/etensor/tensor/stats/stats"
+	"github.com/emer/etensor/tensor/table"
 
 	"github.com/stretchr/testify/assert"
 )
