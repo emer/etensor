@@ -7,7 +7,7 @@ package databrowser
 import (
 	"cogentcore.org/core/core"
 	"cogentcore.org/core/styles"
-	"cogentcore.org/core/texteditor"
+	"cogentcore.org/core/text/textcore"
 	"github.com/emer/etensor/plot/plotcore"
 	"github.com/emer/etensor/tensor"
 	"github.com/emer/etensor/tensor/table"
@@ -92,32 +92,32 @@ func (br *Browser) NewTabSliceTable(label string, slc any) *core.Table {
 	return tv
 }
 
-// NewTabEditor opens a texteditor.Editor tab, displaying given string.
-func (br *Browser) NewTabEditor(label, content string) *texteditor.Editor {
-	ed := NewTab[*texteditor.Editor](br, label, func(tab *core.Frame) *texteditor.Editor {
-		ed := texteditor.NewEditor(tab)
+// NewTabEditor opens a textcore.Editor tab, displaying given string.
+func (br *Browser) NewTabEditor(label, content string) *textcore.Editor {
+	ed := NewTab[*textcore.Editor](br, label, func(tab *core.Frame) *textcore.Editor {
+		ed := textcore.NewEditor(tab)
 		ed.Styler(func(s *styles.Style) {
 			s.Grow.Set(1, 1)
 		})
 		return ed
 	})
 	if content != "" {
-		ed.Buffer.SetText([]byte(content))
+		ed.Lines.SetText([]byte(content))
 	}
 	br.Update()
 	return ed
 }
 
 // NewTabEditorFile opens an editor tab for given file
-func (br *Browser) NewTabEditorFile(label, filename string) *texteditor.Editor {
-	ed := NewTab[*texteditor.Editor](br, label, func(tab *core.Frame) *texteditor.Editor {
-		ed := texteditor.NewEditor(tab)
+func (br *Browser) NewTabEditorFile(label, filename string) *textcore.Editor {
+	ed := NewTab[*textcore.Editor](br, label, func(tab *core.Frame) *textcore.Editor {
+		ed := textcore.NewEditor(tab)
 		ed.Styler(func(s *styles.Style) {
 			s.Grow.Set(1, 1)
 		})
 		return ed
 	})
-	ed.Buffer.Open(core.Filename(filename))
+	ed.Lines.Open(filename)
 	br.Update()
 	return ed
 }

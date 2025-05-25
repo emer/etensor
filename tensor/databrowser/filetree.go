@@ -18,7 +18,7 @@ import (
 	"cogentcore.org/core/icons"
 	"cogentcore.org/core/styles"
 	"cogentcore.org/core/styles/states"
-	"cogentcore.org/core/texteditor/diffbrowser"
+	"cogentcore.org/core/text/diffbrowser"
 	"github.com/emer/etensor/tensor/datafs"
 	"github.com/emer/etensor/tensor/table"
 )
